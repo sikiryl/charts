@@ -3,12 +3,12 @@ entries:
   charts:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-19T13:33:10.533609+07:00"
+    created: "2024-09-19T17:35:34.844933+07:00"
     description: A Helm chart for Kubernetes
     digest: a0959073001b94b4da2a1947c552365ac98a28c9cdc85fbe7b9c1d4cd75b65a4
     name: charts
     type: application
     urls:
-    - https://github.com/sikiryl/charts/charts-0.1.0.tgz
+    - https://sikiryl.github.io/charts/charts-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-19T13:33:10.532779+07:00"
+generated: "2024-09-19T17:35:34.844576+07:00"
