@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: {{ .Capabilities.KubeVersion }}
+  name: {{ .Release.Name }}
+spec:
+  replicas: {{ .Values.myConfig.replicas }}
+  selector:
+    matchLabels:
+      app: hello
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: hello
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
+status: {}
